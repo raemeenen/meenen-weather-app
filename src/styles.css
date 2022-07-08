@@ -1,0 +1,96 @@
+      body {
+        font-family: "Poppins", sans-serif;
+        color: #113f67;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      .location-icon:hover {
+        color: #407088;
+        cursor: pointer;
+      }
+
+      .weather-app {
+        display: block;
+        margin: 10px auto;
+        max-width: 800px;
+        padding: 10px;
+        background: radial-gradient(circle at 10% 20%, rgb(186, 190, 245) 0%, rgb(192, 192, 245) 33.1%, rgb(218, 203, 246) 90%);
+        box-shadow: 3px 2px 2px rgb(217, 214, 214);
+      }
+
+      .current-city {
+        font-size: 44px;
+        font-weight: 900;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .current-weather {
+        text-align: center;
+        list-style-type: none;
+        font-size: 32px;
+        line-height: 1.25;
+        padding: 0;
+      }
+
+      .weather-icon-current {
+        font-size: 44px;
+        color: #407088;
+        padding: 5px
+      }
+
+      .current-time,
+      .current-temp-words,
+      .humidity,
+      .wind {
+        font-size: 14px;
+      }
+
+      .current-temp-number {
+        color: #113f67;
+        font-weight: 900;
+        text-decoration: none;
+      }
+
+      .units {
+        font-size: 14px;
+        text-decoration: none;
+        position: relative;
+        top: -15px;
+      }
+
+      .current-high {
+        text-decoration: underline;
+      }
+
+      .row {
+        padding: 8px;
+      }
+
+      .five-day-forecast {
+        font-size: 20px;
+        padding: 15px;
+        background-color: #e9def9;
+        box-shadow: 3px 2px 2px rgb(217, 214, 214)
+      }
+
+      .weather-icon {
+        font-size: 20px;
+        color: #407088;
+      }
+
+      .change-city {
+        text-align: center;
+      }
+
+      .change-city-input {
+        width: 320px;
+      }
+
+      .submit {
+        background-color: #407088;
+        box-shadow: 3px 2px 2px rgb(217, 214, 214)
+      }
